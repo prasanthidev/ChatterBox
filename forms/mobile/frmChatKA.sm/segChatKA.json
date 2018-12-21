@@ -1,0 +1,171 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgCheck": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "konymplisttakscheck_1.png"
+            },
+            "lblHeader": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Haritha"
+            },
+            "lblSubHeader": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "I am back, after a few days of vacationing with family, Weather was"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2 days ago"
+            }
+        },
+        {
+            "imgCheck": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "konymplisttakscheck_1.png"
+            },
+            "lblHeader": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Haritha"
+            },
+            "lblSubHeader": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "I am back, after a few days of vacationing with family, Weather was"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2 days ago"
+            }
+        },
+        {
+            "imgCheck": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "konymplisttakscheck_1.png"
+            },
+            "lblHeader": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Haritha"
+            },
+            "lblSubHeader": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "I am back, after a few days of vacationing with family, Weather was"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2 days ago"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "dockSectionHeaders": false
+        }
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segChatKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fa6cdee584674cada64b3acbda460510",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxListKA",
+    "pf": "frmChatKA",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "fcfa32d7baa94629a9a68f3239ce84b9",
+    "rowcounter": 2,
+    "rowfocusskin": "scb541ed75fc44d6875c0b432bbabc14",
+    "rowskin": "sa6b53f318564c28973a22f0eac7f875",
+    "rowtemplate": "flxTemplateKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sf647082d3234d959c54179f521a228f",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1125,
+        "widthRatio": 0
+    },
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxChatBoxKA": "flxChatBoxKA",
+        "flxHeaderKA": "flxHeaderKA",
+        "flxTemplateKA": "flxTemplateKA",
+        "imgCheck": "imgCheck",
+        "lblHeader": "lblHeader",
+        "lblSubHeader": "lblSubHeader",
+        "lblTime": "lblTime"
+    },
+    "zindex": 1
+}

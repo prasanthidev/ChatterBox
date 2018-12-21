@@ -1,0 +1,36 @@
+{
+    "AS_FlexContainer_f5056bd7ccc94681adb19b41f2b4ffdf": {
+        "id": "AS_FlexContainer_f5056bd7ccc94681adb19b41f2b4ffdf",
+        "type": "ACTION_SEQUENCE",
+        "name": "onLogin",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLoginKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c6c8df4df8d1466b92e61d7a9db75495"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___f093f89739da4570b2399a629f24ef08",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmChatListKA",
+            "formKUID": "e6bb4b43228b4b788177575585dbac05",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}
