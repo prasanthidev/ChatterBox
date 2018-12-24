@@ -60,7 +60,7 @@
     ],
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "90%"
     },
     "_indicator_": "none",
     "_left_": {
@@ -144,11 +144,11 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": 0,
+    "selectedsectionindex": null,
     "selectionbehavior": "default",
     "selectionbehaviorconfig": null,
     "separatorrequired": false,
-    "showscrollbars": false,
+    "showscrollbars": true,
     "swipeContext": {
         "currentPage": 0,
         "imageWidth": 1125,
