@@ -1,5 +1,4 @@
 
-
 function createMessage() {
   
   var createMessageSuccess = function(record) {
