@@ -121,6 +121,7 @@
     "groupcells": false,
     "hasSections": false,
     "id": "segChatListKA",
+    "ide_onRowClick": "AS_Segment_j8950880e16f4463a6a46549e38ef608",
     "info": null,
     "ipad": {
         "psp": {

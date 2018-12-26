@@ -1,5 +1,5 @@
 // -- SDK File : KonySyncLib.js 
-//  --Generated On Mon Aug 20 01:59:23 IST 2018******************* 
+//  --Generated On Wed Dec 26 01:55:51 IST 2018******************* 
 //  **************** Start jsonWriter.js*******************
 //#ifdef iphone
 	//#define KONYSYNC_IOS
@@ -7964,7 +7964,11 @@ kony.sync.applyChangesToDB = function (context) {
 	function getColumnsValuesForInsertORReplaceQuery(tableName, tableDataFromResponse) {
 		var columnsValuesForInsertQuery = "(";
 		var columns = columnsInScopeTable[tableName];
-
+		/* 
+			Changes done for [MFSDK-3879]
+			As we are creating raw queries for bulk insert, we are replacing " character with "" characters
+			to avoid malformed query. SQL reads "" as " in a raw query, and inserts it accordingly. 
+		*/
 		for (var colIndex = 0; colIndex < columns.length - 1; colIndex++) {
 			var value = tableDataFromResponse[columns[colIndex]];
 
@@ -7972,7 +7976,7 @@ kony.sync.applyChangesToDB = function (context) {
 				value = "NULL";
 			}
 
-			value = value.replace(/'/gi, "&#39;").replace(/"/gi, "&#34;");
+			value = value.replace(/"/gi, "\"\"");
 		    columnsValuesForInsertQuery = columnsValuesForInsertQuery + "\"" + value + "\",";
 
 		}
@@ -7983,7 +7987,7 @@ kony.sync.applyChangesToDB = function (context) {
 			value = "NULL";
 		}
 
-		value = value.replace(/'/gi, "&#39;").replace(/"/gi, "&#34;");
+		value = value.replace(/"/gi, "\"\"");
         columnsValuesForInsertQuery = columnsValuesForInsertQuery + "\"" + value + "\"" + ")";
 
 		return columnsValuesForInsertQuery;

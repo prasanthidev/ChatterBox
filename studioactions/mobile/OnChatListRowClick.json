@@ -1,0 +1,36 @@
+{
+    "AS_Segment_j8950880e16f4463a6a46549e38ef608": {
+        "id": "AS_Segment_j8950880e16f4463a6a46549e38ef608",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnChatListRowClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmChatListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e6bb4b43228b4b788177575585dbac05"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___df6626cf091947508fa2d0dc9baafb02",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmChatKA",
+            "formKUID": "a6d582d61ccf483fb65f91757ac05366",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

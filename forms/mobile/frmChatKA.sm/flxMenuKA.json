@@ -40,12 +40,13 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblMenuKA"
+        "BitbucketSquare"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
     "id": "flxMenuKA",
+    "ide_onTouchStart": "AS_FlexContainer_ff486ae7da6c418d8ee6afe37f71d6e1",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

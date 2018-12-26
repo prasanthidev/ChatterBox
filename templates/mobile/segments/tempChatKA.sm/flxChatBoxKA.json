@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "35dp"
+        "value": "45dp"
     },
     "_left_": {
         "type": "string",
@@ -31,7 +31,7 @@
         "type": "string",
         "value": "3%"
     },
-    "_skin_": "sa15eb2812d74e4da91056b50a8e453a",
+    "_skin_": "se812f3756b3464b9de5af12dd3d43c4",
     "_top_": {
         "type": "string",
         "value": "2dp"
