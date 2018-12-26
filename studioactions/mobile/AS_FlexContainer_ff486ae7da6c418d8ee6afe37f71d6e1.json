@@ -1,0 +1,32 @@
+{
+    "AS_FlexContainer_ff486ae7da6c418d8ee6afe37f71d6e1": {
+        "id": "AS_FlexContainer_ff486ae7da6c418d8ee6afe37f71d6e1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmChatKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a6d582d61ccf483fb65f91757ac05366"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___baf99e63d9b145349ac478fa1a32d2c2",
+            "type": "NAVIGATE_TO_FORM",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

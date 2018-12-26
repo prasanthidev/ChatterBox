@@ -82,7 +82,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "15dp"
     },
     "_width_": {
         "type": "string",
@@ -144,7 +144,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "selectionbehaviorconfig": null,
     "separatorrequired": false,

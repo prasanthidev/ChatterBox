@@ -3,12 +3,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
-        "value": "36dp"
+        "value": "15dp"
     },
     "_margin_": [
         1,
@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "scbfb40df27b4c39bf49da684aed35b1",
-    "_text_": "Clear Chat",
+    "_text_": "User Profile",
     "_top_": {
         "type": "string",
         "value": "20dp"
@@ -43,6 +43,7 @@
     "containerweight": 100,
     "contentalignment": 4,
     "id": "lblAppSyncKA",
+    "ide_onTouchStart": "AS_Label_d933076c56de430590488ae0751e733a",
     "info": null,
     "ipad": {
         "psp": {

@@ -22,9 +22,9 @@
         2,
         2
     ],
-    "_placeholder_": "Placeholder",
-    "_skin_": "sa20aeea127940d5912a96e3ad62151b",
-    "_text_": "type your message here...",
+    "_placeholder_": "Type your message here...",
+    "_skin_": "s375639b98464cbfb1b64f4fe8b69a8a",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -42,7 +42,7 @@
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,
-    "contentalignment": 1,
+    "contentalignment": 2,
     "focusskin": "s7d5aef892854b49846425c32accacdf",
     "id": "txtMessageKA",
     "info": null,
