@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "92%"
+        "value": "10%"
     },
     "_left_": {
         "type": "string",
@@ -23,48 +23,38 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd15f442f8024a8da9f274e50780b522",
+    "_skin_": "sd4c6dadb14f4295b00a78cbe891fbfd",
     "_top_": {
         "type": "string",
-        "value": "8%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "allowhorizontalbounce": false,
-    "allowverticalbounce": true,
-    "bounces": true,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "segChatKA",
-        "flxTextInputKA"
+        "txtMessageKA"
     ],
     "clipbounds": true,
     "containerweight": 100,
-    "decelerat": false,
-    "dragg": false,
     "enablescrolling": true,
-    "horizontalscrollindicator": true,
-    "id": "flxListKA",
+    "id": "flxTextInputKA",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e87e63567dfd436583a5260fc9a81f9d",
-    "layouttype": 4,
-    "name": "kony.ui.FlexScrollContainer",
-    "pagingenabled": false,
-    "parent": "frmMainKA",
+    "kuid": "e08eb0061e634b6cb7b0190301b82510",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxListKA",
     "pf": "frmChatKA",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "track": false,
-    "verticalscrollindicator": true,
-    "wType": "FlexScrollContainer",
+    "wType": "FlexContainer",
     "widgetalignment": 1,
     "zindex": 1
 }
