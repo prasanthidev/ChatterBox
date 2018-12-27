@@ -43,6 +43,7 @@
     "containerweight": 100,
     "contentalignment": 5,
     "id": "lblMenuKA",
+    "ide_onTouchStart": "AS_Label_ed014d557d444659b0e4e8a34e3b4428",
     "info": null,
     "ipad": {
         "psp": {

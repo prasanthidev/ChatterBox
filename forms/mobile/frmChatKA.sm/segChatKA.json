@@ -60,7 +60,7 @@
     ],
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "90%"
     },
     "_indicator_": "none",
     "_left_": {
@@ -82,7 +82,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "15dp"
     },
     "_width_": {
         "type": "string",
@@ -148,7 +148,7 @@
     "selectionbehavior": "default",
     "selectionbehaviorconfig": null,
     "separatorrequired": false,
-    "showscrollbars": false,
+    "showscrollbars": true,
     "swipeContext": {
         "currentPage": 0,
         "imageWidth": 1125,

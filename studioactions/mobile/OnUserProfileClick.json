@@ -1,0 +1,36 @@
+{
+    "AS_Label_d933076c56de430590488ae0751e733a": {
+        "id": "AS_Label_d933076c56de430590488ae0751e733a",
+        "type": "ACTION_SEQUENCE",
+        "name": "OnUserProfileClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmChatListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e6bb4b43228b4b788177575585dbac05"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___e6fb2f8b800a49549a2b25bdd7d977a2",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmUserDetailsKA",
+            "formKUID": "d50217d09b12425ab3a8010c1616559b",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

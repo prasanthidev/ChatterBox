@@ -38,7 +38,8 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "segChatKA"
+        "segChatKA",
+        "flxTextInputKA"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -51,7 +52,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "e87e63567dfd436583a5260fc9a81f9d",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.FlexScrollContainer",
     "pagingenabled": false,
     "parent": "frmMainKA",
