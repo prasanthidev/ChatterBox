@@ -5,30 +5,20 @@ var objUser;
 var objMessages;
 
 var objSvcUsers;
-
+var userId;
+var userName;
+var recieverid;
 function setup() {
   
   //Enable logger..
   kony.logger.activatePersistors(kony.logger.consolePersistor);
   kony.logger.currentLogLevel = kony.logger.logLevel.TRACE;
-  
-  var setupSuccess = function() {
-    
-    try {
-      
-      objSvcUsers = new kony.sdk.KNYObjSvc("User");
-      objUser = objSvcUsers.getSdkObjectByName("user");
-      
-      objSvcMessages = new kony.sdk.KNYObjSvc("Messages");
-      objMessages = objSvcMessages.getSdkObjectByName("messages");
-      
-      syncExpenseOS();
-      frmChatListKA.show();
-      
-    } catch (exp) {
-      kony.print("Exception in creating the object or object service.");
-    }
-  };
+   
+  var setupSuccess = function(result) {
+    objUser = new kony.sdk.KNYObj("user");
+    objMessages = new kony.sdk.KNYObj("messages");
+    ApplicationSync();
+  }
   
   var setupFailure = function(error) {
     kony.print("Setup failure! Error : " + JSON.stringify(error));
@@ -96,4 +86,40 @@ function syncExpenseOS() {
   };
   
   objSvcUsers.startSync({}, syncSuccess, syncFailure, syncProgress);
+}
+
+function ApplicationSync() {
+  function onSuccess(data) {
+    userId = Number(frmLoginKA.userId.text);
+    var options = {};
+    var pk = {};
+    pk["id"] = userId;
+    options["primaryKeys"] = pk;
+    getUserRecords(options, getUserSuccess, onFailure);
+  }
+  
+  function onFailure(err) {
+    alert(JSON.stringify(err));
+  }
+  
+  function getUserSuccess(data) {
+    alert("success");
+    if(data.length > 0) {
+      userName = data[0].name;
+      getUserRecords({}, getUserSuccess1, onFailure);
+    } else {
+      alert("Invalid UserID");
+    }
+  }
+  
+  function getUserSuccess1(data) {
+    alert("success1");
+    frmChatListKA.segChatListKA.widgetDataMap = {"lblHeading" : "id", "lblDescription" : "name"};
+    frmChatListKA.segChatListKA.data = data;
+    frmChatListKA.show();
+  }
+  var options = {};
+  options["objectServicesOptions"] = {"Users" : {"getSyncStats" : {}},
+									  "Messages" : {"getSyncStats" : true}};
+  KNYMobileFabric.OfflineObjects.startSync(options, onSuccess, onFailure, null);
 }

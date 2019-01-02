@@ -39,6 +39,7 @@
     "canUpdateUI": true,
     "children": [
         "segChatKA",
+        "Button0f3eb38ee165747",
         "flxTextInputKA"
     ],
     "clipbounds": true,

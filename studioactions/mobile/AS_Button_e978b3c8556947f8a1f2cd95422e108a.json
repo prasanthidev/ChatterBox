@@ -1,0 +1,24 @@
+{
+    "AS_Button_e978b3c8556947f8a1f2cd95422e108a": {
+        "id": "AS_Button_e978b3c8556947f8a1f2cd95422e108a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmChatKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a6d582d61ccf483fb65f91757ac05366"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f12f7c9791b74b3d9411208ccc63fe97",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "createMessage(recieverid);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

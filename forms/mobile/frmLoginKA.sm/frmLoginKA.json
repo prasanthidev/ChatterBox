@@ -30,7 +30,9 @@
     },
     "canUpdateUI": true,
     "children": [
-        "frmMainKA"
+        "frmMainKA",
+        "Button0e870ed5f19dc44",
+        "userId"
     ],
     "containerweight": 100,
     "currentLocale": "default",

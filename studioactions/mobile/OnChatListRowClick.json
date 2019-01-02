@@ -21,16 +21,11 @@
         },
         "language": "js",
         "actions": [{
-            "id": "NAVIGATE_TO_FORM___df6626cf091947508fa2d0dc9baafb02",
-            "type": "NAVIGATE_TO_FORM",
-            "formId": "frmChatKA",
-            "formKUID": "a6d582d61ccf483fb65f91757ac05366",
-            "mappings": {},
-            "mappingsOrder": [],
-            "parentId": "",
-            "callbackType": null,
-            "enableMappingEditor": true,
-            "package": ""
+            "id": "ADD_SNIPPET__e77809e277af418c9c403b9a80adffe1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "recieverid = frmChatListKA.segChatListKA.selectedRowItems[0].id;\nalert(recieverid);\nvar options = {};\nvar wc = \"( senderid = \" + userId + \" AND recieverid = \" + recieverid + \" ) OR ( senderid = \" + recieverid + \" AND recieverid = \" + userId + \" )\";\noptions[\"whereConditionAsAString\"] = wc;\nalert(wc);\ngetMessageRecords(options);",
+            "parentId": null,
+            "callbackType": null
         }]
     }
 }
