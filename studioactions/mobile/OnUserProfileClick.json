@@ -21,16 +21,11 @@
         },
         "language": "js",
         "actions": [{
-            "id": "NAVIGATE_TO_FORM___e6fb2f8b800a49549a2b25bdd7d977a2",
-            "type": "NAVIGATE_TO_FORM",
-            "formId": "frmUserDetailsKA",
-            "formKUID": "d50217d09b12425ab3a8010c1616559b",
-            "mappings": {},
-            "mappingsOrder": [],
-            "parentId": "",
-            "callbackType": null,
-            "enableMappingEditor": true,
-            "package": ""
+            "id": "ADD_SNIPPET__ja8033cd1597496397262d6afcaf0b31",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "loadUserDetails(userId, frmChatListKA);",
+            "parentId": null,
+            "callbackType": null
         }]
     }
 }

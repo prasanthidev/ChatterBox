@@ -42,6 +42,7 @@
     "containerweight": 100,
     "enablescrolling": true,
     "id": "flxUserPicKA",
+    "ide_onClick": "AS_FlexContainer_f1503f262e6744c1acf8c853d0c828c2",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

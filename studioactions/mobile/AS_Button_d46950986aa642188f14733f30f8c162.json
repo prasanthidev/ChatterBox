@@ -1,0 +1,24 @@
+{
+    "AS_Button_d46950986aa642188f14733f30f8c162": {
+        "id": "AS_Button_d46950986aa642188f14733f30f8c162",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUserDetailsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d50217d09b12425ab3a8010c1616559b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__hc6f24712c3d425d99692a81f18b34f9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "onClickStatusOfProfilePicDownload();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

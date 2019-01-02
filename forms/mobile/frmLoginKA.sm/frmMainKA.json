@@ -37,7 +37,9 @@
     "canUpdateUI": true,
     "children": [
         "flxIconKA",
-        "flxHeadingKA"
+        "flxHeadingKA",
+        "userId",
+        "Button0e870ed5f19dc44"
     ],
     "clipbounds": true,
     "containerweight": 100,

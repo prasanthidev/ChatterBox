@@ -4,17 +4,13 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "40dp"
     },
     "_margin_": [
-        0,
-        0,
-        0,
-        0
+        1,
+        1,
+        1,
+        1
     ],
     "_padding_": [
         0,
@@ -22,12 +18,8 @@
         0,
         0
     ],
-    "_skin_": "s8cdcc90e1ba42929bb919beacf32867",
-    "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "_skin_": "s3ac19dedb3d4ebe9cea95eff042aa4b",
+    "_text_": "Haritha Kintali",
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -40,9 +32,17 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "lblMenuKA",
+    "id": "lblUserNameKA",
     "info": null,
     "ipad": {
         "psp": {
@@ -54,12 +54,14 @@
             "wrapping": 2
         }
     },
+    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c542d40214de41539144f8bfde859286",
-    "masterType": 1,
+    "kuid": "febe73cc34d146baa3164a44ee45f9ec",
     "name": "kony.ui.Label",
-    "parent": "flxMenuKA",
-    "pf": "frmChatKA",
+    "parent": "flxNameKA",
+    "pf": "frmUserDetailsKA",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",
