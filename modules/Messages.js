@@ -1,22 +1,22 @@
 
 
-function createMessage() {
+function createMessage(recieverId) {
   
   var createMessageSuccess = function(record) {
-    kony.print("Category '" + record.name + "' successfully created!");
-    frmAddExpenseKA.show();
+    alert(JSON.stringify(record));
   };
   
   var createMessageFailure = function(error) {
-    kony.print("Couldn't create category. Error : " + JSON.stringify(error));
-    frmAddExpenseKA.show();
+    alert(JSON.stringify(error));
   };
   
-  var recordUser = {};
-  //recordUser.name = frmAddCategoryKA.tbxCategoryName.text;
-  //recordUser.description = frmAddCategoryKA.tbxCategoryDesc.text;
+  var message = {};
+  message["content"] = frmChatKA.txtMessageKA.text;
+  message["senderid"] = userId;
+  message["recieverid"] = recieverId;
+  message["status"] = false;
   
-  objMessages.create(recordUser, {}, createMessageSuccess, createMessageFailure);
+  objMessages.create(message, {}, createMessageSuccess, createMessageFailure);
 }
 
 function updateMessage(record) {
@@ -47,17 +47,18 @@ function deleteMessage(record) {
   objMessages.deleteByPK({"primaryKeys" : record.id}, deleteMessageSuccess, deleteMessageFailure);
 }
 
-function getMessageRecords(successCallback, failureCallback) {
+function getMessageRecords(options) {
   
   var readMessageSuccess = function(records) {
-    kony.print("Category records successfully fetched!");
-    successCallback(records);
+    alert(JSON.stringify(records));
+    frmChatKA.segChatKA.widgetDataMap = {"lblSubHeader" : "content", "lblHeader" : "senderid"};
+    frmChatKA.segChatKA.data = records;
+    frmChatKA.show();
   };
   
   var readMessageFailure = function(error) {
-    kony.print("Couldn't fetch records. Error : " + JSON.stringify(error));
-    failureCallback(error);
+    alert(JSON.stringify(error));
   };
   
-  objMessages.get({}, readMessageSuccess, readMessageFailure);
+  objMessages.get(options, readMessageSuccess, readMessageFailure);
 }

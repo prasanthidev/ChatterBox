@@ -46,7 +46,7 @@ function deleteUser(record) {
   objUser.deleteByPK({"primaryKeys" : record.id}, deleteUserSuccess, deleteUserFailure);
 }
 
-function getUserRecords(successCallback, failureCallback) {
+function getUserRecords(options, successCallback, failureCallback) {
   
   var readUserSuccess = function(records) {
     kony.print("Category records successfully fetched!");
@@ -58,5 +58,5 @@ function getUserRecords(successCallback, failureCallback) {
     failureCallback(error);
   };
   
-  objUser.get({}, readUserSuccess, readUserFailure);
+  objUser.get(options, readUserSuccess, readUserFailure);
 }
