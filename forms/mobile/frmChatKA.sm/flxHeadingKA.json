@@ -42,6 +42,7 @@
     "containerweight": 100,
     "enablescrolling": true,
     "id": "flxHeadingKA",
+    "ide_onClick": "AS_FlexContainer_d13d2d7eb2c24f0fb04a26ba48cd3243",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

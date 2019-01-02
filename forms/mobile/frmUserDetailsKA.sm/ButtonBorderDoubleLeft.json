@@ -38,6 +38,7 @@
     "displaytext": true,
     "focusskin": "s0fb9562105140c3b64f09729b2cea7c",
     "id": "ButtonBorderDoubleLeft",
+    "ide_onClick": "AS_Button_caa5b7c145524d5cb4404892405d9c61",
     "info": null,
     "isvisible": true,
     "kuid": "a570e330928f499dab4bc194aaacaaca",

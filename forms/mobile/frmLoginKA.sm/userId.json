@@ -23,7 +23,7 @@
         0
     ],
     "_placeholder_": "userId",
-    "_skin_": "s2acfed6ad3a4ed68d4464dbff236241",
+    "_skin_": "s27728e2c5954bc0b629747420fadc0c",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -38,11 +38,19 @@
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "65%"
+    },
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 4,
-    "focusskin": "s5fbddb99c714169a3399e55d3030e53",
+    "focusskin": "s8ef3b73d397417c893798664d82bebb",
     "id": "userId",
     "info": null,
     "iscustomlayout": false,
@@ -51,7 +59,7 @@
     "kuid": "bbae0b5b438045c0ba6fdb8a2f784573",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "frmLoginKA",
+    "parent": "frmMainKA",
     "pf": "frmLoginKA",
     "placeholderskin": "s864054e43f6427c985b66912d618546",
     "retaincontentalignment": false,
